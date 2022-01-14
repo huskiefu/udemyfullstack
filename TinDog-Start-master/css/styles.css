@@ -1,0 +1,187 @@
+
+body {
+  font-family: "Montserrat", san-serf;
+  text-align:center;
+}
+
+.container-fluid {
+  padding: 7% 15%;
+}
+
+.colored-section{
+  background-color: #ff4c68;
+  color:#fff;
+}
+
+
+/* media response */
+@media (max-width:1295px){
+  #title{
+    text-align:center;
+  }
+
+  .title-image{
+    position:static;
+  }
+}
+
+/* title section */
+#title {
+  text-align:left;
+}
+
+.white-section {
+  background-color: #fff;
+}
+
+#title .container-fluid{
+  padding: 3% 15%;
+}
+
+.download-button {
+  margin: 5% 3% 5% 0;
+}
+
+
+.title-image{
+  position:relative;
+  width:60%;
+  left:30%;
+}
+
+.title-text{
+  font-weight:bold;
+  font-size: 3.5rem;
+  line-height: 1.5;
+}
+/* Navigation Bar */
+.navbar {
+  padding: 0 0 4.5rem;
+}
+
+.navbar-brand {
+  font-family: "Ubuntu", san-sarif;
+  font-size: 2.5rem;
+  font-weight: 900;
+}
+
+.nav-item {
+  padding: 0 18px;
+}
+
+.nav-link {
+  font-family: "Montserrat";
+  font-weight: normal;
+}
+
+.collapse {
+  position: absolute;
+  right: 20px;
+}
+
+/* features */
+.row {
+  width: 80%;
+  margin: auto;
+}
+
+.feature-icon{
+  display: block;
+  color: #ef8172;
+  font-size: 75px;
+  margin-bottom: 3%;
+}
+
+.feature-icon:hover {
+  color: #ff4c68;
+}
+
+.feature-header {
+  font-weight: 900;
+  font-size:1.7rem;
+}
+
+.feature-text {
+  color: #8f8f8f;
+  font-size: 0.85rem;
+}
+
+
+/* testimonials */
+#testimonials .colored-section{
+  background-color: #ef8172;
+}
+
+
+.testimonial-text {
+  font-size: 3rem;
+  line-height: 1.5;
+  font-weight: bold;
+}
+
+
+.testimonial-image {
+  width: 10%;
+  border-radius: 100%;
+}
+
+/* press */
+#press.colored-section{
+  background-color: #ef8172;
+  padding: 2% 15%;
+  text-align: center;
+}
+
+.press-logo {
+  width: 12%;
+  margin: 0 5% 5%;
+}
+/* pricing */
+
+.card {
+  height : 350px;
+}
+
+.pricing-header{
+  font-weight:bold;
+}
+
+.price {
+  font-weight:bold;
+  font-size:2.5rem;
+}
+
+.pricing-grid{
+  padding-top : 3%;
+}
+
+
+/* Call to action */
+
+.cta-text{
+  font-weight:900;
+  font-size: 2.5rem;
+  margin-bottom: 5%;
+}
+
+/* footer section */
+
+footer >.container-fluid{
+  padding:2% 15%;
+}
+
+.footer-button-left{
+  margin-right:10px;
+}
+
+.footer-button-right{
+  margin-left:10px;
+}
+
+.footer-icon-container{
+  margin-bottom : 1%;
+}
+
+.footer-icon{
+  margin : 0 0.5% 0 0.5%;
+}
